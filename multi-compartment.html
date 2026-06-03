@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-Compartment Models | PharmaLearn Pro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav class='navbar navbar-expand-lg sticky-top app-nav'><div class='container-fluid'><a class='navbar-brand fw-bold' href='index.html'>PharmaLearn Pro</a><button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#nav'><span class='navbar-toggler-icon'></span></button><div class='collapse navbar-collapse' id='nav'><ul class='navbar-nav me-auto mb-2 mb-lg-0'><li class='nav-item'><a class='nav-link' href='index.html'>Home</a></li><li class='nav-item'><a class='nav-link' href='absorption.html'>Absorption</a></li><li class='nav-item'><a class='nav-link' href='distribution.html'>Distribution</a></li><li class='nav-item'><a class='nav-link' href='metabolism.html'>Metabolism</a></li><li class='nav-item'><a class='nav-link' href='excretion.html'>Excretion</a></li><li class='nav-item'><a class='nav-link' href='iv-bolus.html'>IV Bolus</a></li><li class='nav-item'><a class='nav-link' href='iv-infusion.html'>Infusion</a></li><li class='nav-item'><a class='nav-link active' href='multi-compartment.html'>Models</a></li><li class='nav-item'><a class='nav-link' href='formula-sheet.html'>Formulas</a></li><li class='nav-item'><a class='nav-link' href='mcq.html'>MCQ</a></li><li class='nav-item'><a class='nav-link' href='viva.html'>Viva</a></li><li class='nav-item'><a class='nav-link' href='exam-notes.html'>Exam Notes</a></li><li class='nav-item'><a class='nav-link' href='revision.html'>Revision</a></li></ul><div class='d-flex gap-2 align-items-center search-wrap'><input id='liveSearch' class='form-control form-control-sm' placeholder='Search topic, formula, definition'><button class='btn btn-sm btn-outline-light' id='themeToggle' type='button' title='Toggle dark mode'>Dark</button></div></div></div></nav><div id='searchResults' class='search-results container'></div>
+
+<main class="chapter-shell">
+  <aside class="chapter-sidebar"><a href='#intro'>Start</a><a href='#headings'>Headings</a><a href='#definitions'>Terms</a><a href='#formulas'>Formulas</a><a href='#graphs'>Graphs</a><a href='#diagrams'>PDF diagrams</a><a href='#exam'>Exam answers</a><a href='#questions'>Questions</a><a href='#summary'>Revision</a></aside>
+  <div class="chapter-main">
+    <section id="intro" class="chapter-hero">
+      <div>
+        <p class="eyebrow">Pharmacokinetics Chapter</p>
+        <h1>Multi-Compartment Models</h1>
+        <p>Models where drug moves between central and peripheral compartments with different rates.</p>
+        <div class="hero-tags"><span class='tag'>Advanced pharmacokinetics and compartment modeling</span><span class='tag'>English + Tanglish</span><span class='tag'>Exam focused</span></div>
+      </div>
+      <div class="quick-panel">
+        <h2>First Understand</h2>
+        <p><strong>What is topic?</strong> Models where drug moves between central and peripheral compartments with different rates.</p>
+        <p><strong>Why important?</strong> Many drugs do not distribute instantly; multi-compartment models explain rapid distribution, slow elimination, tissue reservoirs, and complex curves.</p>
+        <p><strong>Clinical applications:</strong> Designing dosing for anesthetics, aminoglycosides, anticancer drugs, digoxin, and drugs with deep tissue distribution.</p>
+      </div>
+    </section>
+
+    <section class="split-section">
+      <article class="content-card">
+        <h2>English Explanation</h2>
+        <p>Many drugs do not distribute instantly; multi-compartment models explain rapid distribution, slow elimination, tissue reservoirs, and complex curves. In exams, write the definition first, then mechanism/factors, formula or graph, clinical importance, and one example.</p>
+      </article>
+      <article class="content-card">
+        <h2>Tanglish Explanation</h2>
+        <p>Body one box maari behave pannaadha drugs-ku multi-compartment model use pannuvom. Blood central box; tissues peripheral box. Drug compartments kulla move aagum. Exam-la definition, mechanism, factors, formula/graph, clinical use, example nu neat headings podunga.</p>
+      </article>
+    </section>
+
+    <section id="headings">
+      <h2 class="section-title">Every Heading and Subheading</h2>
+      <div class="card-grid">
+        <article class="content-card">
+          <h3>Central Compartment</h3>
+          <p><strong>Simple English:</strong> Blood and highly perfused organs where drug appears quickly.</p>
+          <p><strong>Tanglish:</strong> Blood, heart, liver, kidney maari fast reach aagura area central compartment.</p>
+          <p><strong>Real-life example:</strong> IV drug first central compartment-la appear aagum.</p>
+          <p><strong>Memory trick:</strong> Central = circulation core.</p>
+        </article>
+        <article class="content-card">
+          <h3>Peripheral Compartment</h3>
+          <p><strong>Simple English:</strong> Less perfused tissues where drug distributes more slowly.</p>
+          <p><strong>Tanglish:</strong> Muscle/fat maari slow reach tissue peripheral.</p>
+          <p><strong>Real-life example:</strong> Diazepam can enter fat and prolong effect.</p>
+          <p><strong>Memory trick:</strong> Peripheral = slower storage.</p>
+        </article>
+        <article class="content-card">
+          <h3>Two-Compartment Curve</h3>
+          <p><strong>Simple English:</strong> Plasma concentration declines in two phases: alpha distribution phase and beta elimination phase.</p>
+          <p><strong>Tanglish:</strong> First steep fall distribution; later slow fall elimination.</p>
+          <p><strong>Real-life example:</strong> Graph-la two slopes irukkum.</p>
+          <p><strong>Memory trick:</strong> Alpha arrives fast; beta leaves slow.</p>
+        </article>
+        <article class="content-card">
+          <h3>Micro and Macro Constants</h3>
+          <p><strong>Simple English:</strong> Microconstants describe transfer between compartments; macroconstants alpha and beta describe observed curve slopes.</p>
+          <p><strong>Tanglish:</strong> k12, k21, k10 movement constants; alpha beta graph slopes.</p>
+          <p><strong>Real-life example:</strong> Used in PK modeling software.</p>
+          <p><strong>Memory trick:</strong> Micro moves; macro measures.</p>
+        </article>
+        <article class="content-card">
+          <h3>Method of Residuals</h3>
+          <p><strong>Simple English:</strong> Also called feathering; separates biexponential curve into distribution and elimination components.</p>
+          <p><strong>Tanglish:</strong> Curve-ai two straight lines-aa split panni constants calculate pannuvom.</p>
+          <p><strong>Real-life example:</strong> Used in two-compartment analysis.</p>
+          <p><strong>Memory trick:</strong> Feathering separates phases.</p>
+        </article></div>
+    </section>
+
+    <section id="definitions">
+      <h2 class="section-title">Technical Terms: Meaning, Simple Meaning, Clinical Meaning</h2>
+      <div class="table-responsive"><table class="table table-striped align-middle"><thead><tr><th>Term</th><th>Technical meaning</th><th>Simple/Tanglish meaning</th><th>Clinical / exam meaning</th></tr></thead><tbody><tr><td><strong>Compartment</strong></td><td>Kinetic space where drug behaves similarly, not necessarily an anatomical organ.</td><td>Mathematical box.</td><td>Simplifies dosing calculations.</td></tr><tr><td><strong>Alpha phase</strong></td><td>Rapid distribution phase.</td><td>Fast distribution drop.</td><td>Initial slope.</td></tr><tr><td><strong>Beta phase</strong></td><td>Slower elimination phase.</td><td>Slow elimination drop.</td><td>Terminal slope.</td></tr><tr><td><strong>Hybrid constants</strong></td><td>Alpha and beta constants seen from plasma curve.</td><td>Observed slopes.</td><td>Used to calculate half-lives.</td></tr></tbody></table></div>
+    </section>
+
+    <section id="formulas">
+      <h2 class="section-title">Formula Explanations and Solved Problems</h2>
+      <div class="formula-grid">
+        <article class="formula-card">
+          <h3>Two-compartment concentration</h3>
+          <div class="formula">C = A x e^(-alpha t) + B x e^(-beta t)</div>
+          <p><strong>Why used:</strong> Fit biexponential plasma curves.</p>
+          <ul><li><strong>A, B</strong>: intercepts for distribution and elimination components</li><li><strong>alpha</strong>: distribution hybrid rate constant</li><li><strong>beta</strong>: elimination hybrid rate constant</li></ul>
+          <p><strong>How to remember:</strong> identify output first, then place exposure/concentration/time terms around it.</p>
+          <p><strong>Step example:</strong> A=20, alpha=1, B=5, beta=0.1, t=2. C=20e^-2 + 5e^-0.2 = 2.71 + 4.09 = 6.80 mg/L.</p>
+        </article>
+        <article class="formula-card">
+          <h3>Distribution half-life</h3>
+          <div class="formula">t1/2 alpha = 0.693 / alpha</div>
+          <p><strong>Why used:</strong> Find time for distribution phase to reduce by half.</p>
+          <ul><li><strong>alpha</strong>: distribution rate constant</li></ul>
+          <p><strong>How to remember:</strong> identify output first, then place exposure/concentration/time terms around it.</p>
+          <p><strong>Step example:</strong> alpha 0.693 h-1 gives t1/2 alpha 1 h.</p>
+        </article>
+        <article class="formula-card">
+          <h3>Elimination half-life</h3>
+          <div class="formula">t1/2 beta = 0.693 / beta</div>
+          <p><strong>Why used:</strong> Find terminal half-life.</p>
+          <ul><li><strong>beta</strong>: terminal elimination rate constant</li></ul>
+          <p><strong>How to remember:</strong> identify output first, then place exposure/concentration/time terms around it.</p>
+          <p><strong>Step example:</strong> beta 0.0693 h-1 gives t1/2 beta 10 h.</p>
+        </article></div>
+    </section>
+
+    <section id="graphs">
+      <h2 class="section-title">Graph Explanations</h2>
+      <div class="card-grid">
+      <article class="content-card">
+        <h3>Biexponential decline</h3>
+        <p>X-axis time; Y-axis concentration. Early steep alpha phase means distribution; later shallow beta phase means elimination.</p>
+        <p><strong>X-axis:</strong> Time or concentration depending on graph. <strong>Y-axis:</strong> concentration, rate, percent dissolved, or cumulative amount.</p>
+        <p><strong>How exams ask:</strong> Exam asks to identify phases and calculate alpha/beta half-lives.</p>
+      </article>
+      <article class="content-card">
+        <h3>Central-peripheral diagram</h3>
+        <p>Arrows show k12 from central to peripheral, k21 back to central, and k10 elimination from central.</p>
+        <p><strong>X-axis:</strong> Time or concentration depending on graph. <strong>Y-axis:</strong> concentration, rate, percent dissolved, or cumulative amount.</p>
+        <p><strong>How exams ask:</strong> Exam asks to label compartments and rate constants.</p>
+      </article></div>
+    </section>
+
+    <section id="diagrams">
+      <h2 class="section-title">Diagram Explanations From the PDF</h2>
+      <p class="lead-small">The original PDF slide images are included below. Use them as the diagram source, then write the short explanation beside each labelled concept in your answer.</p>
+      <div class="diagram-panel"><div class='flow-diagram'><div class='flow-node'>Central</div><div class="flow-arrow">-></div><div class='flow-node'>k12</div><div class="flow-arrow">-></div><div class='flow-node'>Peripheral</div><div class="flow-arrow">-></div><div class='flow-node'>k21</div><div class="flow-arrow">-></div><div class='flow-node'>k10 elimination</div></div></div>
+      <div class="pdf-gallery"><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-01.jpg' alt='Multi-Compartment Models PDF page 1' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 1</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-02.jpg' alt='Multi-Compartment Models PDF page 2' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 2</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-03.jpg' alt='Multi-Compartment Models PDF page 3' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 3</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-04.jpg' alt='Multi-Compartment Models PDF page 4' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 4</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-05.jpg' alt='Multi-Compartment Models PDF page 5' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 5</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-06.jpg' alt='Multi-Compartment Models PDF page 6' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 6</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-07.jpg' alt='Multi-Compartment Models PDF page 7' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 7</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-08.jpg' alt='Multi-Compartment Models PDF page 8' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 8</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-09.jpg' alt='Multi-Compartment Models PDF page 9' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 9</figcaption></figure><figure class='pdf-page'><img src='assets/pdf-pages/multi-compartment/page-10.jpg' alt='Multi-Compartment Models PDF page 10' loading='lazy'><figcaption>Multi-Compartment Models source PDF page 10</figcaption></figure></div>
+    </section>
+
+    <section id="exam">
+      <h2 class="section-title">University Exam Answer Format</h2>
+      <div class="exam-grid">
+        <article class="content-card"><h3>University Definition</h3><p>Models where drug moves between central and peripheral compartments with different rates.</p></article>
+        <article class="content-card"><h3>Simple Explanation</h3><p>Body one box maari behave pannaadha drugs-ku multi-compartment model use pannuvom. Blood central box; tissues peripheral box. Drug compartments kulla move aagum.</p></article>
+        <article class="content-card"><h3>2-Mark Answer</h3><p>Define the term and add one key use or example. Example: Models where drug moves between central and peripheral compartments with different rates.</p></article>
+        <article class="content-card"><h3>5-Mark Answer</h3><p>Write definition, mechanism, two important factors, one formula or graph, and one clinical example.</p></article>
+        <article class="content-card wide"><h3>10-Mark Answer</h3><p>Start with definition and importance. Add classification/subheadings, explain each point, draw the main graph/diagram, write formulas with variables, add clinical applications, table/comparison, and finish with summary.</p></article>
+      </div>
+    </section>
+
+    <section id="questions">
+      <h2 class="section-title">Important and Expected Questions</h2>
+      <div class="question-bands">
+        <div><h3>Top Exam Questions</h3><ol><li>Define Multi-Compartment Models.</li><li>Explain the clinical importance of multi-compartment models.</li><li>Write short notes on Compartment, Alpha phase, Beta phase, Hybrid constants.</li><li>Draw and explain important graphs related to multi-compartment models.</li><li>Derive or explain formulas used in multi-compartment models.</li></ol></div>
+        <div><h3>Viva Prompts</h3><ol><li>Define Multi-Compartment Models.</li><li>Explain the clinical importance of multi-compartment models.</li><li>Write short notes on Compartment, Alpha phase, Beta phase, Hybrid constants.</li><li>Draw and explain important graphs related to multi-compartment models.</li><li>Derive or explain formulas used in multi-compartment models.</li></ol></div>
+        <div><h3>Fill in the Blanks</h3><ol><li>Key formula for this chapter: C = A x e^(-alpha t) + B x e^(-beta t).</li><li>Most important clinical idea: Designing dosing for anesthetics.</li></ol></div>
+      </div>
+    </section>
+
+    <section id="summary" class="revision-box">
+      <h2>Last-Minute Revision Notes</h2>
+      <ul>
+        <li>Definition: Models where drug moves between central and peripheral compartments with different rates.</li>
+        <li>Must remember formula: C = A x e^(-alpha t) + B x e^(-beta t)</li>
+        <li>Graph point: label X-axis and Y-axis before explanation.</li>
+        <li>Clinical point: Designing dosing for anesthetics, aminoglycosides, anticancer drugs, digoxin, and drugs with deep tissue distribution.</li>
+        <li>Answer trick: definition + mechanism + graph/formula + example = high marks.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span>PharmaLearn Pro - Pharmacokinetics learning platform</span>
+    <span>English + Tanglish exam-focused notes generated from the supplied PDF chapters.</span>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

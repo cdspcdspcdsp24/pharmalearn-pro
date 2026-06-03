@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | PharmaLearn Pro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav class='navbar navbar-expand-lg sticky-top app-nav'><div class='container-fluid'><a class='navbar-brand fw-bold' href='index.html'>PharmaLearn Pro</a><button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#nav'><span class='navbar-toggler-icon'></span></button><div class='collapse navbar-collapse' id='nav'><ul class='navbar-nav me-auto mb-2 mb-lg-0'><li class='nav-item'><a class='nav-link active' href='index.html'>Home</a></li><li class='nav-item'><a class='nav-link' href='absorption.html'>Absorption</a></li><li class='nav-item'><a class='nav-link' href='distribution.html'>Distribution</a></li><li class='nav-item'><a class='nav-link' href='metabolism.html'>Metabolism</a></li><li class='nav-item'><a class='nav-link' href='excretion.html'>Excretion</a></li><li class='nav-item'><a class='nav-link' href='iv-bolus.html'>IV Bolus</a></li><li class='nav-item'><a class='nav-link' href='iv-infusion.html'>Infusion</a></li><li class='nav-item'><a class='nav-link' href='multi-compartment.html'>Models</a></li><li class='nav-item'><a class='nav-link' href='formula-sheet.html'>Formulas</a></li><li class='nav-item'><a class='nav-link' href='mcq.html'>MCQ</a></li><li class='nav-item'><a class='nav-link' href='viva.html'>Viva</a></li><li class='nav-item'><a class='nav-link' href='exam-notes.html'>Exam Notes</a></li><li class='nav-item'><a class='nav-link' href='revision.html'>Revision</a></li></ul><div class='d-flex gap-2 align-items-center search-wrap'><input id='liveSearch' class='form-control form-control-sm' placeholder='Search topic, formula, definition'><button class='btn btn-sm btn-outline-light' id='themeToggle' type='button' title='Toggle dark mode'>Dark</button></div></div></div></nav><div id='searchResults' class='search-results container'></div>
+
+<main>
+  <section class="home-hero">
+    <div class="container hero-inner">
+      <div>
+        <p class="eyebrow">Complete Pharmacokinetics Platform</p>
+        <h1>PharmaLearn Pro</h1>
+        <p class="hero-copy">A production-ready English + Tanglish learning website for ADME, IV bolus, infusion, extravascular dosing, and multi-compartment models. Built from the provided PDF chapters with source slide galleries, formulas, exam notes, MCQs, viva, and revision mode.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="absorption.html">Start Learning</a><a class="btn btn-outline-light" href="revision.html">Quick Revision</a></div>
+      </div>
+      <div class="adme-board" aria-label="ADME diagram">
+        <div>A<br><small>Absorption</small></div><div>D<br><small>Distribution</small></div><div>M<br><small>Metabolism</small></div><div>E<br><small>Excretion</small></div>
+      </div>
+    </div>
+  </section>
+  <section class="container section">
+    <h2 class="section-title">Learning Roadmap</h2>
+    <div class="roadmap"><span>Route and absorption</span><span>Blood and tissue distribution</span><span>Liver metabolism</span><span>Kidney/bile excretion</span><span>Models and dosing equations</span><span>Exam practice</span></div>
+  </section>
+  <section class="container section">
+    <h2 class="section-title">Topic Cards</h2>
+    <div class="topic-grid"><a class='topic-card' href='absorption.html'><span>Biopharmaceutics and Pharmacokinetics, ADME</span><h3>Absorption</h3><p>Movement of drug from the site of administration into systemic circulation.</p></a><a class='topic-card' href='distribution.html'><span>Pharmacokinetics, ADME</span><h3>Distribution</h3><p>Reversible transfer of drug between blood and body tissues after absorption or IV entry.</p></a><a class='topic-card' href='metabolism.html'><span>Pharmacokinetics, ADME, Biotransformation</span><h3>Metabolism</h3><p>Enzymatic chemical conversion of drugs, mainly in liver, into metabolites.</p></a><a class='topic-card' href='excretion.html'><span>Pharmacokinetics, ADME</span><h3>Excretion</h3><p>Removal of unchanged drug and metabolites from the body, mainly by kidney and bile.</p></a><a class='topic-card' href='iv-bolus.html'><span>Pharmacokinetics, One-compartment model</span><h3>Intravenous Bolus Injection</h3><p>Rapid injection of an IV dose directly into systemic circulation.</p></a><a class='topic-card' href='iv-infusion.html'><span>Pharmacokinetics, input-rate models</span><h3>Intravenous Infusion and Extravascular Administration</h3><p>Drug input by constant IV infusion or by absorption from extravascular routes such as oral or IM.</p></a><a class='topic-card' href='multi-compartment.html'><span>Advanced pharmacokinetics and compartment modeling</span><h3>Multi-Compartment Models</h3><p>Models where drug moves between central and peripheral compartments with different rates.</p></a></div>
+  </section>
+  <section class="container section">
+    <h2 class="section-title">High-Scoring Comparisons</h2>
+    <div class='comparison-block'><h3>Absorption vs Distribution</h3><div class='table-responsive'><table class='table comparison-table'><thead><tr><th>Point</th><th>Absorption</th><th>Distribution</th></tr></thead><tbody><tr><th>Meaning</th><td>Entry into blood</td><td>Movement between blood and tissues</td></tr><tr><th>Main question</th><td>How much and how fast enters?</td><td>Where does it go?</td></tr><tr><th>Key terms</th><td>F, Cmax, Tmax, AUC, Ka</td><td>Vd, protein binding, tissue binding</td></tr><tr><th>Clinical use</th><td>Route/dosage-form selection</td><td>Loading dose and target-site effect</td></tr></tbody></table></div></div><div class='comparison-block'><h3>Metabolism vs Excretion</h3><div class='table-responsive'><table class='table comparison-table'><thead><tr><th>Point</th><th>Metabolism</th><th>Excretion</th></tr></thead><tbody><tr><th>Meaning</th><td>Chemical change</td><td>Removal from body</td></tr><tr><th>Main organ</th><td>Liver</td><td>Kidney</td></tr><tr><th>Can form active product?</th><td>Yes, prodrugs/metabolites</td><td>Usually no</td></tr><tr><th>Key terms</th><td>CYP, Phase I, Phase II</td><td>CLr, fe, half-life</td></tr></tbody></table></div></div><div class='comparison-block'><h3>IV Bolus vs IV Infusion</h3><div class='table-responsive'><table class='table comparison-table'><thead><tr><th>Point</th><th>IV Bolus</th><th>IV Infusion</th></tr></thead><tbody><tr><th>Input</th><td>Instant dose</td><td>Constant rate</td></tr><tr><th>Initial level</th><td>High immediately</td><td>Rises gradually</td></tr><tr><th>Main equation</th><td>C=C0e^-kt</td><td>C=Css(1-e^-kt)</td></tr><tr><th>Clinical use</th><td>Emergency/loading</td><td>Maintenance controlled levels</td></tr></tbody></table></div></div><div class='comparison-block'><h3>One-Compartment vs Multi-Compartment</h3><div class='table-responsive'><table class='table comparison-table'><thead><tr><th>Point</th><th>One-Compartment</th><th>Multi-Compartment</th></tr></thead><tbody><tr><th>Body view</th><td>Single well-mixed box</td><td>Central plus peripheral boxes</td></tr><tr><th>Curve</th><td>Monoexponential</td><td>Bi/multiexponential</td></tr><tr><th>Phases</th><td>Elimination mainly</td><td>Distribution and elimination</td></tr><tr><th>Use</th><td>Simple drugs/data</td><td>Deep tissue or delayed distribution drugs</td></tr></tbody></table></div></div>
+  </section>
+  <section class="exam-strip">
+    <div class="container">
+      <h2>Exam Preparation Section</h2>
+      <p>Use definition, simple explanation, formula variables, graph axes, clinical example, and comparison table in every long answer.</p>
+      <div class="hero-actions"><a class="btn btn-light" href="mcq.html">Practice MCQ</a><a class="btn btn-outline-light" href="exam-notes.html">Exam Notes</a><a class="btn btn-outline-light" href="formula-sheet.html">Formula Sheet</a></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span>PharmaLearn Pro - Pharmacokinetics learning platform</span>
+    <span>English + Tanglish exam-focused notes generated from the supplied PDF chapters.</span>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
